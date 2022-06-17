@@ -16,4 +16,3 @@ $ docker-compose up -d
 
 - [NEXT.JS: Deployment Docker Image](https://nextjs.org/docs/deployment#docker-image)
 - [NEXT.JS: Environment Variables](https://nextjs.org/docs/basic-features/environment-variables#exposing-environment-variables-to-the-browser)
-- [Manage NEXT_PUBLIC Environment Variables at Runtime with Docker](https://dev.to/itsrennyman/manage-nextpublic-environment-variables-at-runtime-with-docker-53dl)
