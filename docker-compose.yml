@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  nextjsapp:
+   image: bbonkr/sample-nextjs-environment-variables:1.0.0
+   container_name: nextjsapp 
+   ports:
+    - 20000:4000
+   environment:
+    - NODE_ENV=production
+    - NEXT_PUBLIC_V1=hello world runtime 😀
+    - PORT=4000
+   network_mode: bridge
